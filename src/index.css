@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #15130e;
+  --color-surface-dim: #15130e;
+  --color-surface-bright: #3c3932;
+  --color-surface-container-lowest: #100e09;
+  --color-surface-container-low: #1e1b15;
+  --color-surface-container: #221f19;
+  --color-surface-container-high: #2c2a23;
+  --color-surface-container-highest: #37342e;
+  --color-on-surface: #e8e2d8;
+  --color-on-surface-variant: #e4bdbc;
+  --color-outline: #ab8887;
+  --color-outline-variant: #5b403f;
+  --color-primary: #ffb3b1;
+  --color-on-primary: #680010;
+  --color-primary-container: #cf2335;
+  --color-on-primary-container: #ffe8e6;
+  --color-secondary-container: #891b25;
+  --color-on-secondary-container: #ff9998;
+  --font-headline: 'Syne', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, .font-headline {
+    font-family: var(--font-headline);
+  }
+}
+
+/* Custom scrollbar styling for cinematic feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #100e09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #37342e;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cf2335;
+}

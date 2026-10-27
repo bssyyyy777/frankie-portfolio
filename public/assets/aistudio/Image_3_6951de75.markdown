@@ -1,0 +1,214 @@
+---
+name: Cinematic Studio
+colors:
+  surface: '#15130e'
+  surface-dim: '#15130e'
+  surface-bright: '#3c3932'
+  surface-container-lowest: '#100e09'
+  surface-container-low: '#1e1b15'
+  surface-container: '#221f19'
+  surface-container-high: '#2c2a23'
+  surface-container-highest: '#37342e'
+  on-surface: '#e8e2d8'
+  on-surface-variant: '#e4bdbc'
+  inverse-surface: '#e8e2d8'
+  inverse-on-surface: '#33302a'
+  outline: '#ab8887'
+  outline-variant: '#5b403f'
+  surface-tint: '#ffb3b1'
+  primary: '#ffb3b1'
+  on-primary: '#680010'
+  primary-container: '#cf2335'
+  on-primary-container: '#ffe8e6'
+  inverse-primary: '#bc102a'
+  secondary: '#ffb3b1'
+  on-secondary: '#680012'
+  secondary-container: '#891b25'
+  on-secondary-container: '#ff9998'
+  tertiary: '#e9bbbf'
+  on-tertiary: '#46282c'
+  tertiary-container: '#876165'
+  on-tertiary-container: '#ffe7e8'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdad8'
+  primary-fixed-dim: '#ffb3b1'
+  on-primary-fixed: '#410007'
+  on-primary-fixed-variant: '#92001b'
+  secondary-fixed: '#ffdad8'
+  secondary-fixed-dim: '#ffb3b1'
+  on-secondary-fixed: '#410007'
+  on-secondary-fixed-variant: '#891b25'
+  tertiary-fixed: '#ffd9dc'
+  tertiary-fixed-dim: '#e9bbbf'
+  on-tertiary-fixed: '#2e1417'
+  on-tertiary-fixed-variant: '#5f3e42'
+  background: '#15130e'
+  on-background: '#e8e2d8'
+  surface-variant: '#37342e'
+typography:
+  headline-xl:
+    fontFamily: Syne
+    fontSize: 72px
+    fontWeight: '700'
+    lineHeight: 76px
+    letterSpacing: -0.04em
+  headline-xl-mobile:
+    fontFamily: Syne
+    fontSize: 38px
+    fontWeight: '700'
+    lineHeight: 42px
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Syne
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 52px
+    letterSpacing: -0.03em
+  headline-lg-mobile:
+    fontFamily: Syne
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Syne
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Syne
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Space Grotesk
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Space Grotesk
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Space Grotesk
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.12em
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 10px
+    fontWeight: '500'
+    lineHeight: 12px
+    letterSpacing: 0.1em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-desktop: 2.5rem
+  margin: 1.25rem
+  margin-desktop: 3.5rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+
+This design system is crafted for Frankie Yu, an aspiring short-form video creator and media student whose work bridges raw visual storytelling and modern cinematic aesthetics. The target audience comprises commercial production houses, creative directors, festival curators, and dynamic digital brands seeking arresting, high-velocity narrative content.
+
+The emotional signature is atmospheric, deliberate, and immersive. It avoids sterile corporate polish in favor of darkroom intimacy, editorial confidence, and cinematic grandeur. The aesthetic marries high-contrast modernism with subtle analog depth: wide cinematic letterboxing, quiet typographical hierarchies, ultra-dark burgundy canvas grounding, and crisp ivory structural text. The visual direction balances the spontaneous vitality of short-form media with the disciplined craft of cinematic direction.
+
+## Colors
+
+The palette is rooted in an obsessive nocturnal mood inspired by 35mm film processing and low-lit projection rooms.
+
+- **Canvas & Backdrops (`#21090D`):** Deep dark burgundy functions as the base canvas, replacing clinical pitch-black with a rich, blood-tinted shadow tone that absorbs glare and makes video frames ignite.
+- **Mid-tone Atmosphere (`#750A19`):** Rich crimson burgundy serves as container backdrops, elevated card surfaces, and subtle boundary strokes.
+- **Signal Red (`#CF2335`):** The primary energetic accent, evoking camera tally recording lights, live status indicators, playheads, and active interactive strokes.
+- **Warm Ivory (`#F8F1E7`):** The primary typographic and iconographic neutral, providing high contrast without the eye-fatiguing harshness of pure white. Muted text steps down using 60% and 40% opacities of this ivory base.
+
+## Typography
+
+The typographical pairing unites expressive avant-garde confidence with geometric, director-slate technical precision.
+
+- **Headlines (`Syne`):** Used across major portfolio titles, section indices, and bold display callouts. Its wide horizontal proportion and sculptural terminals evoke modern cinema poster title cards.
+- **Body & Metadata (`Space Grotesk`):** Drives project credits, narrative briefs, role titles, and technical data. Its geometric cleanliness provides a utilitarian counterbalance to Syne's expressiveness.
+- **Labels & Overlays:** Applied strictly in uppercase with generous tracking (`0.08em` to `0.12em`) to mirror professional film slates, aspect ratio stamps, and timecode readouts.
+
+## Layout & Spacing
+
+The layout operates on an asymmetric editorial grid anchored by a fixed left navigation spine on desktop, prioritizing uncompromised horizontal viewport flow for cinematic media.
+
+- **Desktop (1024px+):** Employs a docked vertical left bar (width: 260px) housing creator identification, contact triggers, and category filters. The work canvas spans the remainder in a dynamic 12-column grid, allowing full-bleed hero stills, two-column side-by-side video showcases, and 9:16 vertical short-form showcases.
+- **Tablet (768px - 1023px):** Collapses sidebar to an atmospheric top bar with sliding horizontal filter pills. Media tiles format to an alternating 1-and-2 column stagger.
+- **Mobile (<768px):** Single-column stacked stream. Edge margin tightens to 20px, with thumbnails adopting fixed vertical or widescreen aspects. Sticky bottom pill bar ensures thumb-friendly category switching.
+- **Rhythm:** Spacing between disparate editorial segments relies on expansive vertical pauses (`space-xl`), letting media assets breathe without decorative clutter.
+
+## Elevation & Depth
+
+Depth is established strictly through tonal density, filmic opacity tiers, and directional red-ambient backlighting rather than traditional drop shadows.
+
+- **Surface Level 0 (Canvas):** Pure `#21090D`, acting as the bottom projection plane.
+- **Surface Level 1 (Card & Frame):** `#21090D` blended with a 6% overlay of `#750A19`, bordered with a razor-thin 1px line of `rgba(248, 241, 231, 0.08)`.
+- **Surface Level 2 (Floating Overlays & Controls):** Glassmorphic pill capsules using `rgba(33, 9, 13, 0.75)` with `backdrop-filter: blur(16px)` and an internal stroke of `rgba(248, 241, 231, 0.18)`.
+- **Cinematic Glow (Interactive Hover):** Focused interactive media items emit an ultra-diffused atmospheric back-glow: `box-shadow: 0 20px 60px -15px rgba(207, 35, 53, 0.35)`.
+
+## Shapes
+
+The design system maintains a refined, low-curvature shape profile (`roundedness: 1`) to preserve the disciplined geometry of movie viewfinders and editing suites.
+
+- **Cards & Media Viewports:** Softened at `0.25rem` to `0.5rem` (`rounded-lg`), mirroring polished screen hardware and contemporary digital frames without feeling overly friendly or bulbous.
+- **Navigation Controls & Filter Chips:** Intentionally contrast the rectangular media frames by adopting extreme pill contours (`9999px`), offering intuitive, tactile touch-points that visually float above the sharp-cornered work.
+
+## Components
+
+### Buttons
+- **Primary CTA:** Pill-shaped capsule filled with `#F8F1E7` text set on `#CF2335`, accompanied by a subtle red hover radiance. Typography set in `label-lg` uppercase.
+- **Ghost Action:** Transparent background with a 1px boundary of `rgba(248, 241, 231, 0.25)`, ivory text, transitioning on hover to `rgba(117, 10, 25, 0.4)` background and `#F8F1E7` boundary.
+
+### Pill Category Filters
+- Contained inside a floating frosted glass cluster.
+- **Inactive Pill:** Transparent or dark translucent base with muted ivory text (`rgba(248, 241, 231, 0.5)`).
+- **Active Pill:** Inverted solid `#F8F1E7` surface with dark `#21090D` typography, providing instant visual confirmation of the current narrative reel.
+
+### Work Cards & Media Tiles
+- Feature custom 16:9, 4:3, or 9:16 aspect ratios framed by a 1px ghost border.
+- Hover states initiate smooth preview looping, gentle thumbnail zoom (`scale(1.03)`), and reveal an overlay featuring the client name, Frankie's exact role (Director, DP, Editor), and run duration.
+
+### Fixed Sidebar Navigation
+- Left-docked canvas containing creator moniker, live status badge (pulsing `#CF2335` indicator dot denoting "Available for Commissions"), vertical category links, and social links.
+- Uses subtle border-right separation via `rgba(248, 241, 231, 0.08)`.
+
+### Form Fields (Contact / Booking)
+- Understated input lines with dark translucent fill `rgba(117, 10, 25, 0.15)` and bottom border highlight in `#750A19`.
+- Focused state transforms the border to `#CF2335` with an accompanying ivory label shift.
+
+### Video Modal Player
+- Full-screen takeover layered with 95% opacity `#21090D`.
+- Features custom scrubbing bar in `#CF2335` and minimalist timecode counters rendered in `Space Grotesk`.

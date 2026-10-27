@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Syne:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+/* Clean language switching */
+html[data-lang="en"] .lang-zh { display: none !important; }
+html[data-lang="zh"] .lang-en { display: none !important; }
+</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface":"#15130e","surface-variant":"#37342e","on-secondary-fixed-variant":"#891b25","background":"#15130e","on-tertiary":"#46282c","on-tertiary-container":"#ffe7e8","surface-container-lowest":"#100e09","tertiary-fixed":"#ffd9dc","surface-tint":"#ffb3b1","on-surface-variant":"#e4bdbc","primary-fixed":"#ffdad8","primary-container":"#cf2335","surface-container-highest":"#37342e","error-container":"#93000a","outline":"#ab8887","primary":"#ffb3b1","surface-container-low":"#1e1b15","tertiary":"#e9bbbf","on-error":"#690005","on-secondary":"#680012","secondary-container":"#891b25","tertiary-fixed-dim":"#e9bbbf","on-primary":"#680010","inverse-primary":"#bc102a","inverse-surface":"#e8e2d8","on-surface":"#e8e2d8","inverse-on-surface":"#33302a","on-tertiary-fixed":"#2e1417","tertiary-container":"#876165","surface-dim":"#15130e","on-error-container":"#ffdad6","surface-bright":"#3c3932","on-tertiary-fixed-variant":"#5f3e42","secondary-fixed-dim":"#ffb3b1","on-secondary-fixed":"#410007","outline-variant":"#5b403f","on-primary-fixed":"#410007","error":"#ffb4ab","surface-container-high":"#2c2a23","secondary":"#ffb3b1","secondary-fixed":"#ffdad8","on-primary-fixed-variant":"#92001b","primary-fixed-dim":"#ffb3b1","on-background":"#e8e2d8","on-secondary-container":"#ff9998","on-primary-container":"#ffe8e6","surface-container":"#221f19"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","space-xl":"3.5rem","gutter-desktop":"2.5rem","margin":"1.25rem","space-sm":"0.75rem","space-lg":"2rem","margin-desktop":"3.5rem","space-md":"1.25rem","space-xs":"0.375rem"},"fontFamily":{"label-sm":["Space Grotesk"],"headline-lg-mobile":["Syne"],"headline-xl-mobile":["Syne"],"body-sm":["Space Grotesk"],"headline-lg":["Syne"],"headline-sm":["Syne"],"headline-md":["Syne"],"label-md":["Space Grotesk"],"label-lg":["Space Grotesk"],"body-md":["Space Grotesk"],"body-lg":["Space Grotesk"],"headline-xl":["Syne"]},"fontSize":{"label-sm":["10px",{"lineHeight":"12px","letterSpacing":"0.1em","fontWeight":"500"}],"headline-lg-mobile":["28px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-xl-mobile":["38px",{"lineHeight":"42px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["48px",{"lineHeight":"52px","letterSpacing":"-0.03em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["32px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"500"}],"label-lg":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-xl":["72px",{"lineHeight":"76px","letterSpacing":"-0.04em","fontWeight":"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><aside class="fixed left-0 top-0 h-screen w-72 bg-surface-container-lowest z-50 flex flex-col justify-between p-gutter shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-space-lg"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Frankie Yu Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDvwKMsJQcgeDE7vqpGudg_TX6x4T1T0v6vCz6KWrFpK1fk0huf9NjjVCPFMR86QLioJbFR7IMFdXicBDf09Oyri3DwXL_soOtz2GSL2SVEWGVUpTfn3PBBBaJTiPIIO7IhlTlsOZiJNurGR6ykw5u88s-aVGilZi4i-GcEAR2i3nmOdBOzIaFWdpyke9a53tuEs91YA-qB5Ah4oEoLf5rM42Rd10WmILkkQN4dDV21CTzq7V-2ODZdw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none lang-en">FRANKIE YU</span><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none lang-zh">俞伊倩</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mt-1 lang-en">Director &amp; DP</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mt-1 lang-zh">导演 / 摄影指导</span></div></div><div class="flex items-center gap-2 mt-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-primary tracking-wider uppercase lang-en">Available for Commissions</span><span class="font-label-sm text-label-sm text-primary tracking-wider uppercase lang-zh">开放商业与项目合作</span></div></div><nav class="flex flex-col gap-space-xs" data-active-classes="bg-secondary-container text-on-primary-container font-semibold rounded-lg pl-space-md"><a aria-current="page" class="flex items-center justify-between py-space-xs px-space-sm transition-all group bg-secondary-container text-on-primary-container font-semibold rounded-lg pl-space-md" data-path="home" href="#"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">Home</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">首页</span></a><a class="flex items-center justify-between py-space-xs px-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="video-content" href="#selected-works"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">Video &amp; Content</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">短视频创作</span></a><a class="flex items-center justify-between py-space-xs px-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="film-narrative" href="#film-narrative"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">Film &amp; Narrative</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">叙事短片</span></a><a class="flex items-center justify-between py-space-xs px-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="storyboard" href="#storyboard-section"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">Storyboard</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">分镜设计</span></a><a class="flex items-center justify-between py-space-xs px-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="strategy-communication" href="#strategy-section"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">Strategy &amp; Comm</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">传播策略</span></a><a class="flex items-center justify-between py-space-xs px-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="about-contact" href="#about-contact"><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-en">About &amp; Contact</span><span class="font-body-md text-body-md group-hover:translate-x-0.5 transition-transform lang-zh">关于与联系</span></a></nav></div><div class="flex flex-col gap-space-md pt-space-md"><div class="flex items-center gap-space-md"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors tracking-widest uppercase" href="#">Vimeo</a><span class="w-1 h-1 rounded-full bg-surface-variant"></span><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors tracking-widest uppercase" href="#">Instagram</a><span class="w-1 h-1 rounded-full bg-surface-variant"></span><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors tracking-widest uppercase" href="#">Bilibili</a></div><div class="flex flex-col gap-space-xs"><p class="font-label-sm text-label-sm text-on-surface-variant opacity-60">© 2025 Frankie Yu.</p><p class="font-label-sm text-label-sm text-on-surface-variant opacity-40">Cinematic Reel Portfolio</p></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl z-40 flex items-center justify-between px-gutter-desktop shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-sm"><img alt="Frankie Yu Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDvwKMsJQcgeDE7vqpGudg_TX6x4T1T0v6vCz6KWrFpK1fk0huf9NjjVCPFMR86QLioJbFR7IMFdXicBDf09Oyri3DwXL_soOtz2GSL2SVEWGVUpTfn3PBBBaJTiPIIO7IhlTlsOZiJNurGR6ykw5u88s-aVGilZi4i-GcEAR2i3nmOdBOzIaFWdpyke9a53tuEs91YA-qB5Ah4oEoLf5rM42Rd10WmILkkQN4dDV21CTzq7V-2ODZdw"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight hidden sm:inline lang-en">FRANKIE YU</span><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight hidden sm:inline lang-zh">俞伊倩</span></div><div class="flex items-center gap-space-md"><div class="flex items-center bg-surface-container-high rounded-full p-1 shadow-inner"><button class="px-3 py-1 rounded-full bg-primary-container font-label-sm text-label-sm text-on-primary-container transition-all shadow-sm" id="btn-lang-en" type="button">EN</button><button class="px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-all" id="btn-lang-zh" type="button">中文</button></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 w-full min-h-screen bg-background"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow Field -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-container/20 blur-[140px] pointer-events-none"></div>
+<div class="absolute top-1/3 -left-32 w-[500px] h-[500px] rounded-full bg-primary-container/10 blur-[160px] pointer-events-none"></div>
+<!-- 1. HERO SECTION -->
+<section class="relative px-gutter-desktop pt-space-xl pb-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-space-xl">
+<!-- Hero Left: Typography & Intro -->
+<div class="flex-1 flex flex-col gap-space-md z-10">
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm tracking-widest uppercase lang-en">
+              Portfolio 2025
+            </span>
+<span class="inline-flex items-center px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm tracking-widest uppercase lang-zh">
+              个人作品集 · 2025
+            </span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">SINGAPORE / GLOBAL</span>
+</div>
+<div class="flex flex-col">
+<!-- English View Name -->
+<div class="lang-en flex items-baseline gap-4 flex-wrap">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tighter leading-none">
+                FRANKIE YU
+              </h1>
+</div>
+<!-- Chinese View Name -->
+<div class="lang-zh flex items-baseline gap-4 flex-wrap">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tighter leading-none">
+                俞伊倩
+              </h1>
+<span class="font-headline-md text-headline-md text-primary font-semibold">Frankie Yu</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant mt-space-xs font-normal lang-en">
+              Short-form Video Creator &amp; Content Strategist
+            </p>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant mt-space-xs font-normal lang-zh">
+              短视频创作者 / 内容策划与制作
+            </p>
+<p class="font-label-lg text-label-lg text-primary tracking-widest uppercase mt-1 lang-en">
+              Creative Direction · Mobile Cinematography · Social Strategy
+            </p>
+<p class="font-label-lg text-label-lg text-primary tracking-widest uppercase mt-1 lang-zh">
+              创意构思 · 手机移动摄影 · 社交媒体传播策略
+            </p>
+</div>
+<!-- Filmic Accent Tagline -->
+<div class="flex items-center gap-3 my-1">
+<div class="h-[1px] w-12 bg-primary-container"></div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium italic tracking-wide lang-en">
+              “Creative Ideas. Engaging Stories.”
+            </p>
+<p class="font-body-lg text-body-lg text-on-surface font-medium tracking-wide lang-zh">
+              “创意构想，叙事共鸣。”
+            </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed lang-en">
+            Media &amp; Communications student specializing in digital narrative pacing, mobile cinematography, and viral short-form video architectures for Douyin, Xiaohongshu, and international platforms. Merging cinematic discipline with creator economy intuition.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed lang-zh">
+            传媒与传播专业背景，专注于数字影像叙事节奏、手机摄影与爆款短视频策划体系。深度深耕抖音、小红书及海外社媒生态，将电影化镜头语言与创作者敏锐度融为一体。
+          </p>
+<!-- Quick Skills Pills -->
+<div class="flex flex-wrap gap-2 pt-1 lang-en">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#Scriptwriting</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#Storyboarding</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#MobileShooting</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#VideoEditing</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#Xiaohongshu</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#Douyin</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#BrandContent</span>
+</div>
+<div class="flex flex-wrap gap-2 pt-1 lang-zh">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#剧本编创</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#分镜设计</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#移动摄制</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#剪辑调色</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#小红书生态</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#抖音运营</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors">#品牌内容</span>
+</div>
+<!-- CTAs -->
+<div class="flex items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg uppercase tracking-wider shadow-lg hover:bg-secondary-container transition-all hover:scale-[1.02] active:scale-[0.98]" href="#selected-works">
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+<span class="lang-en">Explore My Work</span>
+<span class="lang-zh">浏览作品</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surface-container-high text-on-surface font-label-lg text-label-lg uppercase tracking-wider hover:bg-surface-container-highest transition-all" href="#about-contact">
+<span class="lang-en">About Me</span>
+<span class="lang-zh">关于我</span>
+</a>
+</div>
+</div>
+<!-- Hero Right: Creator Portrait Staged Card with IMAGE_2 -->
+<div class="w-full lg:w-[420px] shrink-0 flex flex-col items-center">
+<div class="relative w-full max-w-[360px] group">
+<!-- Glow backlight -->
+<div class="absolute -inset-1 rounded-2xl bg-gradient-to-tr from-primary-container/40 via-secondary-container/20 to-transparent blur-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
+<!-- Portrait Container -->
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-low shadow-2xl p-2.5 border border-outline-variant/30">
+<div class="relative w-full aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-lowest">
+<img alt="Frankie Yu (俞伊倩) Portrait" class="w-full h-full object-cover object-top contrast-[1.05] brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzlQNMJXJhggnWHD_lgoNBMMz6RnJOuMtFDn7J9gJhwj5ZPMLRX447CYCdIQ5aKZxlN339JOtcPG_df50c1E3zHZ0pR27ZWVhuBYIPRNICTLgxgC_lt40cbbAJihoHmJ_kUFEwdYpAfOlyvJ7tueaX885j4q1Wy4HsR-MnqyrmppyB5beBSONcO0dlM7ivbmoagBWXaVPFdMjOHC3hOokKDF2hmYmv2bo9Taye3JZXyVw5lIsYaZQptxugyErRP3_65mE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/30"></div>
+<!-- Live Tag Overlay -->
+<div class="absolute top-3 left-3 flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md border border-outline-variant/40">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-sm text-label-sm text-on-surface tracking-wider">REC · 2025 ACTIVE</span>
+</div>
+<!-- Lower Card Info -->
+<div class="absolute bottom-3 left-3 right-3 p-3 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between border border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-[16px] text-on-surface leading-tight font-semibold lang-en">Frankie Yu</span>
+<span class="font-headline-sm text-[16px] text-on-surface leading-tight font-semibold lang-zh">俞伊倩</span>
+<span class="font-label-sm text-label-sm text-primary lang-en">Content Director &amp; DP</span>
+<span class="font-label-sm text-label-sm text-primary lang-zh">导演 / 摄影指导</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">FPS: 24 · 4K UHD</span>
+<span class="font-label-sm text-label-sm text-primary font-bold lang-en">AVAILABLE</span>
+<span class="font-label-sm text-label-sm text-primary font-bold lang-zh">可接洽</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SELECTED VIDEO WORKS (Priority Showcase) -->
+<section class="px-gutter-desktop py-space-xl" id="selected-works">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header with Center Filter Pill Bar -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">01 // REEL ARCHIVE</span>
+<span class="h-px w-8 bg-surface-variant"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-en">
+              SELECTED VIDEO WORKS
+            </h2>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-zh">
+              精选短视频作品
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant lang-en">
+              Short-form showcase covering campus variety, micro-docs, street food, and cinematic editing.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant lang-zh">
+              涵盖高校趣味综艺、非营利组织纪实、街头探店与高阶快剪精选。
+            </p>
+</div>
+<!-- Frosted Filter Pill Capsule -->
+<div class="inline-flex items-center p-1.5 rounded-full bg-surface-container-low shadow-inner backdrop-blur-md overflow-x-auto max-w-full">
+<button class="filter-btn active px-4 py-1.5 rounded-full bg-on-surface text-surface font-label-md text-label-md uppercase tracking-wider transition-all" data-category="all" type="button">
+<span class="lang-en">ALL</span>
+<span class="lang-zh">全部</span>
+</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase tracking-wider transition-all" data-category="variety" type="button">
+<span class="lang-en">VARIETY</span>
+<span class="lang-zh">综艺短片</span>
+</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase tracking-wider transition-all" data-category="documentary" type="button">
+<span class="lang-en">DOCS</span>
+<span class="lang-zh">纪实访谈</span>
+</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase tracking-wider transition-all" data-category="lifestyle" type="button">
+<span class="lang-en">LIFESTYLE</span>
+<span class="lang-zh">生活探店</span>
+</button>
+</div>
+</div>
+<!-- 4 Short-form Video Cards (9:16 / 4:5 Mobile Format Grid) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1: Variety Show -->
+<div class="work-card group flex flex-col rounded-xl bg-surface-container p-3 transition-all duration-300 hover:shadow-2xl hover:bg-surface-container-high" data-filter="variety">
+<div class="relative w-full aspect-[9/14] rounded-lg overflow-hidden bg-surface-container-lowest">
+<img alt="Campus Variety Video" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High-energy campus variety challenge short video vertical frame, energetic East Asian college students laughing, neon night campus background, cinematic mobile cinematography with dynamic neon red and amber accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9eKwwBgRpf3dhhuzpQmEdFSXbEP-MOpcIenF0R5U4dn15lkitK6jlG6i7sfxBBn5CW6TubqFqtbdSm1NxEPREjx-QEFb4qB9P4MlnpuhhNcn0ZJuXIal-rfvTREtbj7rvyCSAMbNgCA1qN5KIbjkWIeEqZ8GSmg2BoVb6Pnch_N96NiJZ8O08_6oB3oei1AwYTS0KN1GO28xwegc5SSYaz6W_v3-CUNTExaaipP03vd57YZymOyeimA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/30"></div>
+<!-- Badges -->
+<div class="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/90 text-on-primary-container font-label-sm text-label-sm uppercase">Douyin</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-en">Solo</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-zh">独立创作</span>
+</div>
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/80 font-label-sm text-label-sm text-on-surface">02:18</span>
+<!-- Hover Play Button overlay -->
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-surface-container-lowest/40 backdrop-blur-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shadow-lg transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">play_arrow</span>
+</div>
+</div>
+<!-- Bottom Content Overlay -->
+<div class="absolute bottom-2.5 left-2.5 right-2.5">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-en">Campus Challenge</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-zh">高校趣味挑战</span>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-en">
+                  Urban Rhythm: Campus Variety
+                </h3>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-zh">
+                  城市律动：校园趣味挑战赛
+                </h3>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-3">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-en">
+                Fast-paced viral hook structure with comedic sound design and dynamic graphics.
+              </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-zh">
+                快节奏爆款黄金开头设计，结合趣味音效与动效包装，兼具叙事张力与传播度。
+              </p>
+<div class="flex items-center justify-between text-on-surface-variant pt-1">
+<span class="font-label-sm text-label-sm text-primary lang-en">Role: Director &amp; Lead Editor</span>
+<span class="font-label-sm text-label-sm text-primary lang-zh">角色：导演 / 剪辑</span>
+<span class="font-label-sm text-label-sm">124k+ Plays</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Documentary -->
+<div class="work-card group flex flex-col rounded-xl bg-surface-container p-3 transition-all duration-300 hover:shadow-2xl hover:bg-surface-container-high" data-filter="documentary">
+<div class="relative w-full aspect-[9/14] rounded-lg overflow-hidden bg-surface-container-lowest">
+<img alt="Documentary Frame" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Cinematic close-up portrait of an inspiring woman speaking in an intimate documentary interview setting, warm dim lamp lighting, soft bokeh, emotional expression, rich dark burgundy and charcoal background tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCvXt1_uQkS-xppm-UHAHUXp5Knq9BDvu_t2v_NiuTnJkkZ8yEFSTQyxmg8g8uln4ujYvOi__hFvm-MKHhCzVgcFmX2WW6pKaA6vxroRS28cW2qHspixjXqsB4k8jJ8uF3ZssQJlq9xMIzWnPhv52DcStWjxnF0kXqrIKPIMWzycN4YmI6R3uLbevQxiMC2V_7eHE-koUdyMxXkXiEMtafHxRq6tJ4fhd384-oYNsshYTRS-DJ7y-C0g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/30"></div>
+<!-- Badges -->
+<div class="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm uppercase">SCWO NGO</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant/80 text-on-surface-variant font-label-sm text-label-sm lang-en">Team</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant/80 text-on-surface-variant font-label-sm text-label-sm lang-zh">团队合作</span>
+</div>
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/80 font-label-sm text-label-sm text-on-surface">03:45</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-surface-container-lowest/40 backdrop-blur-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shadow-lg transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 left-2.5 right-2.5">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-en">Micro Documentary</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-zh">纪实微访谈</span>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-en">
+                  Voices of Resilience: SCWO
+                </h3>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-zh">
+                  韧性之声：新加坡妇女组织纪实
+                </h3>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-3">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-en">
+                Documenting empowering community journeys through sensitive framing &amp; conversational pacing.
+              </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-zh">
+                新加坡妇女组织纪实访谈，用温润细腻的构图与深入对话记录真实社群力量。
+              </p>
+<div class="flex items-center justify-between text-on-surface-variant pt-1">
+<span class="font-label-sm text-label-sm text-primary lang-en">Role: DP &amp; Sound Recordist</span>
+<span class="font-label-sm text-label-sm text-primary lang-zh">角色：摄影指导 / 录音</span>
+<span class="font-label-sm text-label-sm lang-en">Official Feature</span>
+<span class="font-label-sm text-label-sm lang-zh">官方精选</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Lifestyle & Food -->
+<div class="work-card group flex flex-col rounded-xl bg-surface-container p-3 transition-all duration-300 hover:shadow-2xl hover:bg-surface-container-high" data-filter="lifestyle">
+<div class="relative w-full aspect-[9/14] rounded-lg overflow-hidden bg-surface-container-lowest">
+<img alt="Lifestyle Food Video" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Mouthwatering vibrant culinary dish preparation shot inside a bustling night hawker market in Singapore, aromatic steam, warm glowing incandescent lanterns, rich saturated colors, cinematic macro depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSbikoITkvDdH2SECCQREz5BVTYRrOs3TW0ONDWtJaFrWqKNGg025rU_IYVPGMWBATOhwFUmWTRhhwXolH_pxKVtg9ErsNEXR-xWxocY6tebWBMHwsKGOwaaFdqvjga_MkYNTdytD3HyRbgKR2kIY8PhC2U1J4i1RDYzZyDvH4Ba7rR30GT8w24knM7HqGUzeOsoEmX2Kmd48c9L7beE-dgP7WKy_Y42I4zINJ4J9P5Z5DBxze9_YTfg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/30"></div>
+<!-- Badges -->
+<div class="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/90 text-on-primary-container font-label-sm text-label-sm uppercase">RED</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-en">Solo</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-zh">独立创作</span>
+</div>
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/80 font-label-sm text-label-sm text-on-surface">01:30</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-surface-container-lowest/40 backdrop-blur-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shadow-lg transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 left-2.5 right-2.5">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-en">Food Discovery</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-zh">美食探店</span>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-en">
+                  Hidden Flavors: Singapore
+                </h3>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-zh">
+                  隐秘风味：狮城探店志
+                </h3>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-3">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-en">
+                Sensory macro culinary visuals, brisk ASMR editing, and authentic cultural exploration.
+              </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-zh">
+                微距美食质感呈现，清脆节奏感音效与市井烟火气的本土文化探索。
+              </p>
+<div class="flex items-center justify-between text-on-surface-variant pt-1">
+<span class="font-label-sm text-label-sm text-primary lang-en">Role: Scriptwriter &amp; Producer</span>
+<span class="font-label-sm text-label-sm text-primary lang-zh">角色：编导 / 制片</span>
+<span class="font-label-sm text-label-sm">88k+ Likes</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Cinematic Vlog -->
+<div class="work-card group flex flex-col rounded-xl bg-surface-container p-3 transition-all duration-300 hover:shadow-2xl hover:bg-surface-container-high" data-filter="lifestyle">
+<div class="relative w-full aspect-[9/14] rounded-lg overflow-hidden bg-surface-container-lowest">
+<img alt="Cinematic Vlog" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Architectural twilight shot of Marina Bay and supertrees in Singapore, moody cinematic rain slick reflections, cool teal and warm crimson red contrast, editorial urban aesthetics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0yOhk7DNFljJmFi3XzRHTxWo7P2kkhlCLElAouhSceNpuZnRV8-YlGnrwNHWQqT4nBR6NmLMyG3VZLnDMbKyxD34vwAzs0MhoWUy3_nDrO7EGd5upCgLQj4ag1R-JkthgnG_wbepfsdRWythP0V8erVUBp43R3jW_FSeBzoZEJ1Q7-Y8AXxQO4l_CpZLM4sEmP4ZbwdQI9q6RHkjxlMsXNGSZ40o0ilgvAMzBmLeDefeGWJEYw5AQmQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/30"></div>
+<!-- Badges -->
+<div class="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/90 text-on-primary-container font-label-sm text-label-sm uppercase">Douyin / RED</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-en">Solo</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high/90 text-primary font-label-sm text-label-sm lang-zh">独立创作</span>
+</div>
+<span class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/80 font-label-sm text-label-sm text-on-surface">01:15</span>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-surface-container-lowest/40 backdrop-blur-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shadow-lg transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 left-2.5 right-2.5">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-en">Cinematic Vlog</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider block mb-0.5 lang-zh">光影快剪</span>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-en">
+                  City Symphony: 48H Singapore
+                </h3>
+<h3 class="font-headline-sm text-[17px] text-on-surface leading-tight font-semibold lang-zh">
+                  城市交响：48小时光影快剪
+                </h3>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-3">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-en">
+                Seamless match cuts, speed ramps, and atmospheric rhythm tuned to ambient electronic music.
+              </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 lang-zh">
+                无缝匹配转场、速度曲线变速，与环境电子乐完美卡点的电影感快剪短片。
+              </p>
+<div class="flex items-center justify-between text-on-surface-variant pt-1">
+<span class="font-label-sm text-label-sm text-primary lang-en">Role: Solo Production &amp; Color</span>
+<span class="font-label-sm text-label-sm text-primary lang-zh">角色：全流程摄制 / 调色</span>
+<span class="font-label-sm text-label-sm lang-en">Featured Post</span>
+<span class="font-label-sm text-label-sm lang-zh">热门收录</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. NARRATIVE FILM PROJECTS (Widescreen Cinematic Cards) -->
+<section class="px-gutter-desktop py-space-xl bg-surface-container-lowest/60" id="film-narrative">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">02 // NARRATIVE DIRECTING</span>
+<span class="h-px w-8 bg-surface-variant"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-en">
+            NARRATIVE FILM PROJECTS
+          </h2>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-zh">
+            叙事短片项目
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant lang-en">
+            Cinematic short films exploring psychological tension and human condition.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant lang-zh">
+            学术与独立短片创作，探讨心理张力与青年生存境遇。
+          </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Film 1: THE CHASE -->
+<div class="group flex flex-col rounded-2xl bg-surface-container overflow-hidden transition-all duration-300 hover:bg-surface-container-high">
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-lowest">
+<img alt="The Chase Film Still" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Atmospheric widescreen film still of a shadowy figure running through a narrow neon-drenched Singapore back alley at midnight, puddle reflections, dramatic cinematic anamorphic lighting, deep red and slate color grade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe4ddtZPt38Sjq3dus3GZO4XxKB6HO0o1uA7j7RVNcpTxc9mz8MFMmBPvnrxfHA6lrsOvA1XJ7rqrTy_kLeiQC0SNdCEtymqrtoguXPuOgNOHf8lxfLQeg0P6i7gRw0QwvktFxqAchUOnjcvmY_V2geIlmISdvZQpHp8Dpi0y-6iHcaRMlVw5tdw4RFp_LZvm6ImBQQmp3rJqWj5M6a0PTT464D3tlBeJE4QPZYgu69Bw_9RbLZP2w7g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<!-- Film Meta Pill -->
+<div class="absolute top-4 left-4 flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold tracking-wider lang-en">
+                  Thriller Short
+                </span>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold tracking-wider lang-zh">
+                  悬疑惊悚
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">
+                  08:14 MIN
+                </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest lang-en">Academic Showcase 2024</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest lang-zh">学术展映作品 · 2024</span>
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold lang-en">
+                    THE CHASE
+                  </h3>
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold lang-zh">
+                    追逐 · THE CHASE
+                  </h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[20px]">movie</span>
+</div>
+</div>
+</div>
+<!-- Metadata Details -->
+<div class="p-6 flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-2">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed lang-en">
+<span class="text-on-surface font-medium">Logline:</span> When a university archivist intercepts a coded digital drive, she is hunted across Singapore's nocturnal labyrinth in a desperate sprint for autonomy.
+                </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed lang-zh">
+<span class="text-on-surface font-medium">故事梗概：</span>一名大学档案员意外截获一份加密数据盘，在新加坡午夜错综复杂的巷道迷宫中展开极限生死竞速。
+                </p>
+<div class="grid grid-cols-2 gap-3 pt-2 text-on-surface-variant">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-primary lang-en">Core Roles</span>
+<span class="font-label-sm text-label-sm uppercase text-primary lang-zh">主创职责</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-en">Directing, Storyboard, Lead Editor</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-zh">导演、分镜设计、主剪辑</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-primary lang-en">Camera &amp; Format</span>
+<span class="font-label-sm text-label-sm uppercase text-primary lang-zh">机位与画幅</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Sony FX3 · 2.39:1 CinemaScope</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1.5 lang-en">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+                  Selected: SG Youth Indie Showcase
+                </span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1.5 lang-zh">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+                  入选：新加坡青年独立影展
+                </span>
+<button class="inline-flex items-center gap-1 px-4 py-2 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md uppercase tracking-wider transition-colors" type="button">
+<span class="lang-en">Case Study</span>
+<span class="lang-zh">深度复盘</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Film 2: BLIND SPOT -->
+<div class="group flex flex-col rounded-2xl bg-surface-container overflow-hidden transition-all duration-300 hover:bg-surface-container-high">
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-lowest">
+<img alt="Blind Spot Film Still" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High contrast film frame of two protagonists facing each other inside an intense moody minimalist concrete studio, subtle red backlighting, high emotional tension, cinematic shadows and deep burgundy blacks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLqk_4TLtnUQocGcEW0myPE_k7i6eThbnrUz4_ZMSLqWYho81s5BCBqChLgHiwJyUESYQZJFLM4UrGYY8znoV0xa2fEh-ZZn7RtEuasHTN-Ff12B8rntMtKd6OqPQ4IHRtdaLkFj6NFzan3x0-LcWdhMyC5R4RkcCt9X-GuWz_AUqS_-QYEcTeFluCmX9UuT32KtmfehO4DLJdCqkhjxlTar5mp_cvKiSlwTz2MN5aQj_S5dm8TLrMhQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold tracking-wider lang-en">
+                  Psychological Drama
+                </span>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold tracking-wider lang-zh">
+                  心理剧情
+                </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">
+                  12:20 MIN
+                </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest lang-en">Academic Thesis Project</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest lang-zh">毕业创作短片</span>
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold lang-en">
+                    BLIND SPOT
+                  </h3>
+<h3 class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold lang-zh">
+                    盲区 · BLIND SPOT
+                  </h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[20px]">movie</span>
+</div>
+</div>
+</div>
+<!-- Metadata Details -->
+<div class="p-6 flex flex-col gap-space-sm flex-1 justify-between">
+<div class="flex flex-col gap-2">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed lang-en">
+<span class="text-on-surface font-medium">Logline:</span> An estranged daughter returns home to dismantle her father's recording studio, unearthing forgotten audio tapes that reframe a catastrophic family memory.
+                </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed lang-zh">
+<span class="text-on-surface font-medium">故事梗概：</span>疏离的女儿回到家中清理已故父亲的录音室，在一盘盘封尘的母带中重新拼接出一段改变全家命运的真相。
+                </p>
+<div class="grid grid-cols-2 gap-3 pt-2 text-on-surface-variant">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-primary lang-en">Core Roles</span>
+<span class="font-label-sm text-label-sm uppercase text-primary lang-zh">主创职责</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-en">DP, Storyboard, Colorist</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-zh">摄影指导、分镜、调色</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-primary lang-en">Color Palette</span>
+<span class="font-label-sm text-label-sm uppercase text-primary lang-zh">色彩规格</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Arri LogC3 · Low-key Filmic</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1.5 lang-en">
+<span class="material-symbols-outlined text-[16px]">military_tech</span>
+                  Festival Candidate Submission 2025
+                </span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1.5 lang-zh">
+<span class="material-symbols-outlined text-[16px]">military_tech</span>
+                  2025 青年电影节参展投递
+                </span>
+<button class="inline-flex items-center gap-1 px-4 py-2 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md uppercase tracking-wider transition-colors" type="button">
+<span class="lang-en">Case Study</span>
+<span class="lang-zh">深度复盘</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. STORYBOARD DESIGN (Panoramic Carousel Strip) -->
+<section class="px-gutter-desktop py-space-xl" id="storyboard-section">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">03 // VISUAL CONTINUITY</span>
+<span class="h-px w-8 bg-surface-variant"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-en">
+              STORYBOARD DESIGN
+            </h2>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-zh">
+              分镜设计精选
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant lang-en">
+              Panoramic storyboard strips preserving real scene continuity from script to final capture.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant lang-zh">
+              全景连续性分镜长卷，真实还原从纸面脚本到现场摄影调度的视觉节奏。
+            </p>
+</div>
+<div class="flex items-center gap-3">
+<button aria-label="Previous Frame" class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors" id="sb-prev">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<button aria-label="Next Frame" class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors" id="sb-next">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Panoramic Strip Container -->
+<div class="relative rounded-2xl bg-surface-container p-5 flex flex-col gap-4">
+<div class="flex items-center justify-between flex-wrap gap-2">
+<div class="flex items-center gap-3">
+<span class="px-3 py-1 rounded bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold lang-en">
+                Strip 01: 'The Chase' Climax Alleyway Sequence
+              </span>
+<span class="px-3 py-1 rounded bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold lang-zh">
+                分镜组 01：《追逐》高潮巷战追逐序列
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-en">
+                Shots #14 ~ #19 · Continuous Action Arc
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-zh">
+                镜头 14-19 · 连续动作弧
+              </span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-sm text-label-sm uppercase transition-all" id="lightbox-trigger">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+<span class="lang-en">Enlarge Full Storyboard</span>
+<span class="lang-zh">查看完整分镜大图</span>
+</button>
+</div>
+<!-- Horizontal Scroll Storyboard Strip -->
+<div class="flex gap-4 overflow-x-auto pb-2 scroll-smooth" id="storyboard-scroll">
+<!-- Frame 1 -->
+<div class="min-w-[260px] md:min-w-[290px] flex flex-col rounded-xl bg-surface-container-lowest p-3 shrink-0">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container">
+<img alt="Storyboard frame 14" class="w-full h-full object-cover" data-alt="High quality hand drawn cinematic storyboard sketch in charcoal pencil of an establishing extreme wide shot of a rainy Singapore alleyway at night, framed by dark brick walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9UW021oCBKX355ZZLWi9CyB-Il6zjzon30zeTCdsCF1cSaeGZAK4VH-J7mMhi-MfU1qhxnOrqrlym5mCpMCEwuTvhBzOTcZaeKeXy-Tl2xNN5IpsPwf0yJrTVsVIR0KN0nGmHY8fcpSLyUK5CG6kxInZ-toesXzf1a3Y6BwVZcy551u9E6rSRruxOU0qBxM0-YQ7Nf7Fh4p-IBfqsIbZww2TBASArQQjxoLlni6IT9sem2lgAK9Z-4Q"/>
+<span class="absolute top-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm font-bold">SC.4 / SH.14</span>
+<span class="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">EWS</span>
+</div>
+<div class="flex flex-col gap-1 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Establishing Alleyway</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">巷道远景建立镜头</span>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-en">Rain drops through fluorescent light. Protagonist steps into silhouette at corner.</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-zh">雨水划过荧光灯管。主角从拐角处闪入剪影。</p>
+<span class="font-label-sm text-[10px] text-primary">Camera: Static · 24mm T1.5</span>
+</div>
+</div>
+<!-- Frame 2 -->
+<div class="min-w-[260px] md:min-w-[290px] flex flex-col rounded-xl bg-surface-container-lowest p-3 shrink-0">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container">
+<img alt="Storyboard frame 15" class="w-full h-full object-cover" data-alt="Cinematic storyboard illustration showing medium close up over the shoulder shot of a runner turning their head with terror, intense dynamic motion lines in dark ink" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCObY44QgbWIlv9UeVAz42XCNGrb89ootbhP8OUZ8CmxX_J5bHBM6XdWjDMWca2NpynCsLKyvFSMcuKEpNP3DZbUlSdVHET58lc_psDIn_QkfE_0yNAmfv440wLCVQZqw7ewVD0Jc_vCafpE3w_p5rQhDBnRC8M8BQPIC2UC0jFxG5PpzPSGKUCr3lTJMlSAVv-js5qsqXCSpul-Cp0EACe2xihTosweln3_wkvG9bD8H4EbkmHA2m8yA"/>
+<span class="absolute top-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm font-bold">SC.4 / SH.15</span>
+<span class="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">MCU</span>
+</div>
+<div class="flex flex-col gap-1 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Over-The-Shoulder Turn</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">过肩回望主观视角</span>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-en">Protagonist glances back. Head turn triggers sudden whip-pan sound cue.</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-zh">主角惊慌回望，头部甩动触发疾速声效。</p>
+<span class="font-label-sm text-[10px] text-primary">Camera: Gimbal Tracking · 35mm</span>
+</div>
+</div>
+<!-- Frame 3 -->
+<div class="min-w-[260px] md:min-w-[290px] flex flex-col rounded-xl bg-surface-container-lowest p-3 shrink-0">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container">
+<img alt="Storyboard frame 16" class="w-full h-full object-cover" data-alt="Storyboard sketch of an extreme low angle shot from puddle level looking up at running boots splashing water violently, dramatic charcoal shading" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdSS417Jmg0bAi-F-twK3W3D99NI3Iei8lQdaariDzpotnh2vRmt7HFDtHUvOHGgOQrJMaCjjaQkghPieWiczHJkI3ZmaZLGEv6Ms_KocGpecQK7Plx9rsq5KnJo5Nao6RRwTzIfc01ilKvjEMzkWAIx6meENjGTfEEl9zvOCNPlMNb8tF9uRdg9gNmAatCyn8pYz4XwHhArEvJi-ldGMW6kAGQqsR5BFOQVWjC9z97bAjXalQc9d__g"/>
+<span class="absolute top-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm font-bold">SC.4 / SH.16</span>
+<span class="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">LOW CU</span>
+</div>
+<div class="flex flex-col gap-1 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Puddle Splash Impact</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">水洼水花低机位特写</span>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-en">Boots fracture neon puddle reflection. Speed ramps up 200% into sprint.</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-zh">靴底踩碎水洼霓虹倒影，画面200%加速进入全力冲刺。</p>
+<span class="font-label-sm text-[10px] text-primary">Camera: Low Dutch Angle · 18mm</span>
+</div>
+</div>
+<!-- Frame 4 -->
+<div class="min-w-[260px] md:min-w-[290px] flex flex-col rounded-xl bg-surface-container-lowest p-3 shrink-0">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container">
+<img alt="Storyboard frame 17" class="w-full h-full object-cover" data-alt="Storyboard frame of extreme close up on the protagonist's eyes with reflected headlights approaching fast, dramatic cinematic crosshatching" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwVJOgnbUvpdkTMUTbq2zkYTUM9OuyOxjYAYb5OC1RCCjNvYTdN4ujGjeUnnmGIw5YVWSdG4OIS6AC7y2BimUB2fJTnk9F_vfJgyzHH2MZnJegzxwXOLTljfQXeNRD5kMPvHePdYzp_KmpCHkiQ6yyZYE0EC5_hhVrJASgQG1rsB4Jj5VVP6VtjeZxsBQu7ZHyn1q7MB6xfGAhIY7yqqfiI1fpHYxzN6gra7_5bdVHGwJMrdV8dHqNVw"/>
+<span class="absolute top-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm font-bold">SC.4 / SH.17</span>
+<span class="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">ECU</span>
+</div>
+<div class="flex flex-col gap-1 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Ocular Tension</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">眼神极限特写</span>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-en">High contrast headlight glare sweeps over pupils. Sound cuts out to heartbeat.</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-zh">车头灯高光横扫瞳孔，环境音骤止转为心跳低鸣。</p>
+<span class="font-label-sm text-[10px] text-primary">Camera: Macro 85mm</span>
+</div>
+</div>
+<!-- Frame 5 -->
+<div class="min-w-[260px] md:min-w-[290px] flex flex-col rounded-xl bg-surface-container-lowest p-3 shrink-0">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container">
+<img alt="Storyboard frame 18" class="w-full h-full object-cover" data-alt="Storyboard frame of bird's eye top down view looking directly down onto a dead-end alley intersection, protagonist cornered against iron gate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_vmGRx0TqgMtMPSoHkLejXyfJZhSqQ0gx_0MrWSe1eO-FofJz-jQHK8hOvYNZN1_USZAs3k0ky4pe49TUOlFlCINKs39nxdKrd5kEy9sAc5JcSBSTLyJd-bpm1XsR0-DknkUG9T0gFb5mrVXx_iWGc6ZlWs55HerwfJyx1lH-3W-bzvISzr_MOA9YPzW1eUZE3IyHsBLypp3QctmHL10exx1jhO7qWUsmFM_0QGittW9SCM-qy83VGw"/>
+<span class="absolute top-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm font-bold">SC.4 / SH.18</span>
+<span class="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm">TOP-DOWN</span>
+</div>
+<div class="flex flex-col gap-1 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Cornered Climax</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">死胡同俯瞰视角</span>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-en">Dead end reached. Protagonist turns back facing camera as shadow engulfs frame.</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-snug lang-zh">逼入死角。主角背靠铁门回眸，巨大阴影覆没全画幅。</p>
+<span class="font-label-sm text-[10px] text-primary">Camera: Crane Overhead · 28mm</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant pt-1">
+<span class="font-label-sm text-label-sm italic lang-en">
+              Note: One complete panoramic sequence per project — preserved visual continuity &amp; timing rhythm.
+            </span>
+<span class="font-label-sm text-label-sm italic lang-zh">
+              注：每个项目展示完整连续分镜长卷，保留现场镜头真实连贯度与情绪节奏。
+            </span>
+<span class="font-label-sm text-label-sm text-primary">Procreate Drawing · Standard Grids</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. STRATEGY & COMMUNICATION CASE STUDIES (Analytical Cards) -->
+<section class="px-gutter-desktop py-space-xl bg-surface-container-lowest/60" id="strategy-section">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">04 // STRATEGY &amp; RESEARCH</span>
+<span class="h-px w-8 bg-surface-variant"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-en">
+            STRATEGY &amp; COMMUNICATION AUDITS
+          </h2>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1 lang-zh">
+            传播与策略审计
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant lang-en">
+            Strategic audits integrating communication theory and real-world brand operations.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant lang-zh">
+            结合学术传播理论与商业维度的深度案例审计与公关复盘。
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Strategy Card 1: Esther Yu -->
+<div class="group flex flex-col rounded-2xl bg-surface-container p-6 transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex items-center justify-between mb-4">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold lang-en">
+                IP Strategy
+              </span>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold lang-zh">
+                个人IP传播审计
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Academic Research 2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug lang-en">
+              Esther Yu (虞书欣) — Digital Media Strategy Audit
+            </h3>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug lang-zh">
+              虞书欣 — 数字媒体传播策略审计
+            </h3>
+<p class="font-label-md text-label-md text-primary mt-1 lang-en">
+              Content Mix, Audience Demographics, Virality Mechanics
+            </p>
+<p class="font-label-md text-label-md text-primary mt-1 lang-zh">
+              内容矩阵、受众画像与多平台裂变机制
+            </p>
+<div class="flex flex-col gap-3 my-5 py-4 border-y border-surface-variant/40">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">analytics</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Platform Archetype Mix</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">全渠道平台矩阵分工</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-en">Xiaohongshu aesthetic micro-vlogs (45%) + Douyin sound-meme synchronization (35%) + Weibo fandom activations (20%).</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-zh">小红书审美调性微Vlog (45%) + 抖音热点神曲同步裂变 (35%) + 微博饭圈实时联动 (20%)。</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">psychology</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Virality Mechanics</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">破圈传播机制</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-en">High-frequency parasocial authenticity hooks and self-deprecating humorous micro-sketches driving organic UGC recreation.</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-zh">高频准社交真实感锚点与自嘲式幽默微短剧，强力驱动二次UGC二创传播。</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-2">
+<span class="font-label-sm text-label-sm text-primary font-medium lang-en">Method: Quantitative Content Analysis</span>
+<span class="font-label-sm text-label-sm text-primary font-medium lang-zh">方法：定量内容分析法</span>
+<button class="inline-flex items-center gap-1.5 text-on-surface hover:text-primary font-label-md text-label-md uppercase transition-colors" type="button">
+<span class="lang-en">Read Executive Summary</span>
+<span class="lang-zh">阅读分析提要</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</button>
+</div>
+</div>
+<!-- Strategy Card 2: Haidilao -->
+<div class="group flex flex-col rounded-2xl bg-surface-container p-6 transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex items-center justify-between mb-4">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold lang-en">
+                Crisis PR
+              </span>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold lang-zh">
+                危机公关复盘
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Brand Resilience 2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug lang-en">
+              Haidilao (海底捞) — Crisis Communication &amp; Resilience
+            </h3>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug lang-zh">
+              海底捞 — 危机公关与品牌韧性机制
+            </h3>
+<p class="font-label-md text-label-md text-primary mt-1 lang-en">
+              Crisis Timeline, Sentiment Shift, Key Takeaways
+            </p>
+<p class="font-label-md text-label-md text-primary mt-1 lang-zh">
+              危机时间线、舆情拐点与策略启示
+            </p>
+<div class="flex flex-col gap-3 my-5 py-4 border-y border-surface-variant/40">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">timer</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Golden 4-Hour Response Framework</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">黄金4小时应答体系</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-en">Analysis of unreserved institutional accountability statements issued within 4 hours, mitigating negative virality waves.</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-zh">4小时内快速出具全责任承担声明，切断负面舆情次生扩散链条。</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">stacked_line_chart</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-en">Sentiment Rebound Index</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold lang-zh">舆情反弹指数</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-en">Post-incident trust restoration measured via live kitchen stream transparency policies, converting skeptics into advocates.</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant lang-zh">事件后推行明厨亮灶透明化机制，有效修复公众信任并将质疑转化为拥护。</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-2">
+<span class="font-label-sm text-label-sm text-primary font-medium lang-en">Framework: Coombs SCCT Theory</span>
+<span class="font-label-sm text-label-sm text-primary font-medium lang-zh">理论：Coombs 情境危机传播理论</span>
+<button class="inline-flex items-center gap-1.5 text-on-surface hover:text-primary font-label-md text-label-md uppercase transition-colors" type="button">
+<span class="lang-en">Read Executive Summary</span>
+<span class="lang-zh">阅读分析提要</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CONTACT & INTERNSHIP INQUIRIES FOOTER SECTION -->
+<section class="px-gutter-desktop py-space-xl" id="about-contact">
+<div class="max-w-7xl mx-auto rounded-3xl bg-surface-container p-8 md:p-12 relative overflow-hidden">
+<!-- Background Ambient Accent -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-primary-container/20 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row gap-space-xl justify-between">
+<!-- Left Column: Inquiry Intent & Bio Summary -->
+<div class="flex-1 flex flex-col gap-space-md">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest font-semibold lang-en">
+                Available for 2025 Creative Internships
+              </span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest font-semibold lang-zh">
+                开放 2025 暑期与学期创意实习意向
+              </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight lang-en">
+              Let's create stories that cut through the noise.
+            </h2>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight lang-zh">
+              期待与您共创打动人心的作品。
+            </h2>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant font-normal lang-en">
+              Short-form Video · Content Strategy · Directing &amp; Cinematography
+            </p>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant font-normal lang-zh">
+              支持短视频编导、内容策划、影视摄制等全职/项目制合作
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl lang-en">
+              Equipped with end-to-end capabilities: from viral script outlines and storyboarding to camera execution, DaVinci/Premiere post-production, and social platform audience operations. Ready to contribute fresh creative energy to forward-thinking studios and digital agencies.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl lang-zh">
+              具备全流程影视与短视频能力：涵盖脚本编撰、分镜绘制、现场掌镜、DaVinci/Premiere后期剪辑调色及社交平台运营。随时准备为前瞻性的创意工作室和数字化机构注入新鲜视觉活力。
+            </p>
+<!-- Buttons -->
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg uppercase tracking-wider hover:bg-secondary-container transition-all" href="mailto:frankie.yu.media@gmail.com">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span class="lang-en">Get in Touch</span>
+<span class="lang-zh">联系我</span>
+</a>
+<button class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-container-highest font-label-lg text-label-lg uppercase tracking-wider transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="lang-en">Download Resume (PDF)</span>
+<span class="lang-zh">简历下载 (PDF)</span>
+</button>
+</div>
+</div>
+<!-- Right Column: Direct Channels & Student Disclosure -->
+<div class="w-full lg:w-96 flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-4 p-5 rounded-2xl bg-surface-container-low">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider lang-en">Direct Connect</span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider lang-zh">快速联络方式</span>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">alternate_email</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-en">Email Address</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-zh">电子邮箱</span>
+<a class="font-body-sm text-body-sm text-on-surface font-medium hover:text-primary transition-colors" href="mailto:frankie.yu.media@gmail.com">frankie.yu.media@gmail.com</a>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-en">Social Handles</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-zh">社交平台账号</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">RED / 抖音: @FrankieYuMedia</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-en">Location</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant lang-zh">常驻地点</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-en">Singapore &amp; Greater China</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium lang-zh">新加坡 / 中国</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Academic Disclosure Note -->
+<div class="p-4 rounded-xl bg-surface-container-lowest text-on-surface-variant flex flex-col gap-1.5">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase font-semibold lang-en">Academic Integrity Disclosure</span>
+<span class="font-label-sm text-label-sm uppercase font-semibold lang-zh">学术诚信声明</span>
+</div>
+<p class="font-body-sm text-[12px] leading-relaxed lang-en">
+                Authentic student portfolio. Academic group and individual projects are clearly annotated with precise individual contribution breakdowns to preserve complete transparency.
+              </p>
+<p class="font-body-sm text-[12px] leading-relaxed lang-zh">
+                真实学生作品集。所有学术小组与个人项目均严格标明具体个人创作分工，保持全面透明度。
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive Storyboard Lightbox Modal (Hidden by Default) -->
+<div class="fixed inset-0 z-50 hidden bg-surface-container-lowest/95 backdrop-blur-xl flex flex-col p-6 overflow-y-auto" id="storyboard-modal">
+<div class="flex items-center justify-between pb-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold lang-en">Panoramic Storyboard High-Res Lightbox</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold lang-zh">连续分镜高清大图预览</span>
+<span class="px-2.5 py-1 rounded bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold lang-en">The Chase</span>
+<span class="px-2.5 py-1 rounded bg-secondary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold lang-zh">追逐</span>
+</div>
+<button aria-label="Close modal" class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors" id="modal-close">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<div class="flex-1 flex items-center justify-center p-4">
+<div class="max-w-6xl w-full flex flex-col gap-4">
+<div class="aspect-[21/9] w-full rounded-2xl overflow-hidden bg-surface-container relative">
+<img alt="Full Storyboard Sequence" class="w-full h-full object-cover" data-alt="Full panoramic high resolution hand drawn film storyboard sequence composed of 6 widescreen panels connected seamlessly with camera directions and dialogue annotations in charcoal and crimson markers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDScUAj6fJp0WY8F5K_u4piBeVfNjW3xDzjJfFKLWhxH62dQO9sSTDhefrn0i50IUJzRcL_3w1LdGeKLbfr4lKIDtl4wMOCIaMgXgFg5Aog5QIm6SPNS5lx2lz_T2F16cTrpCRKoBuIs5TWob4VFR8vtAx9wWvUCMCnEoqjtcAA2QVQUBwGqNTpv8ODKlM-TPv1gkQNEIsI5qwto8UieBXf_rmypsWOjEq1uOTDgeQ8eX-qphU8saclA"/>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span class="lang-en">Continuous Scene Arc: SC.4 Alleyway Sprint to Dead-End Confrontation</span>
+<span class="lang-zh">场景连续弧：第4场 巷道生死冲刺至死角对峙</span>
+<span>Zoom: 100% · Vector Resolution Export</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Client-side Interactive Behavior Script -->
+<script>
+    // 0. Language Switching Toggle (EN / ZH)
+    const btnEn = document.getElementById('btn-lang-en');
+    const btnZh = document.getElementById('btn-lang-zh');
+    const htmlElement = document.documentElement;
+
+    function setLanguage(lang) {
+      htmlElement.setAttribute('data-lang', lang);
+      if (lang === 'zh') {
+        btnZh.classList.add('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btnZh.classList.remove('text-on-surface-variant');
+        btnEn.classList.remove('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btnEn.classList.add('text-on-surface-variant');
+      } else {
+        btnEn.classList.add('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btnEn.classList.remove('text-on-surface-variant');
+        btnZh.classList.remove('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btnZh.classList.add('text-on-surface-variant');
+      }
+    }
+
+    // Default to EN
+    setLanguage('en');
+
+    if (btnEn && btnZh) {
+      btnEn.addEventListener('click', () => setLanguage('en'));
+      btnZh.addEventListener('click', () => setLanguage('zh'));
+    }
+
+    // 1. Category Filter Switching
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const workCards = document.querySelectorAll('.work-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-on-surface', 'text-surface');
+          b.classList.add('text-on-surface-variant');
+        });
+        btn.classList.add('bg-on-surface', 'text-surface');
+        btn.classList.remove('text-on-surface-variant');
+
+        const cat = btn.getAttribute('data-category');
+        workCards.forEach(card => {
+          if (cat === 'all' || card.getAttribute('data-filter') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 2. Storyboard Carousel Controls
+    const sbScroll = document.getElementById('storyboard-scroll');
+    const sbPrev = document.getElementById('sb-prev');
+    const sbNext = document.getElementById('sb-next');
+
+    if (sbPrev && sbNext && sbScroll) {
+      sbPrev.addEventListener('click', () => {
+        sbScroll.scrollBy({ left: -320, behavior: 'smooth' });
+      });
+      sbNext.addEventListener('click', () => {
+        sbScroll.scrollBy({ left: 320, behavior: 'smooth' });
+      });
+    }
+
+    // 3. Storyboard Lightbox Modal
+    const lightboxTrigger = document.getElementById('lightbox-trigger');
+    const modal = document.getElementById('storyboard-modal');
+    const modalClose = document.getElementById('modal-close');
+
+    if (lightboxTrigger && modal && modalClose) {
+      lightboxTrigger.addEventListener('click', () => {
+        modal.classList.remove('hidden');
+      });
+      modalClose.addEventListener('click', () => {
+        modal.classList.add('hidden');
+      });
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</div></main></div></body></html>
