@@ -164,13 +164,13 @@ export const ASSETS = {
   foodCover: '/covers/publiccovers05_food.jpg',
   vlogCover: '/covers/publiccovers06_vlog.jpg',
 
-  // Local Project MP4 Videos (in public/videos/)
-  theChaseVideo: '/videos/publicvideos01_the_chase.MP4',
-  blindSpotVideo: '/videos/publicvideos02_blind_spot.MP4',
-  scwoVideo: '/videos/publicvideos03_scwo.mp4',
-  varietyVideo: '/videos/publicvideos04_variety.mp4',
-  foodVideo: '/videos/publicvideos05_food.mp4',
-  vlogVideo: '/videos/publicvideos06_vlog.mp4',
+  // Tencent Cloud VOD playback URLs
+  theChaseVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/708d25a95001834825862836663/f0.MP4',
+  blindSpotVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/b23546615001834825863381308/f0.MP4',
+  scwoVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/fcda6bc55001834825864281726/f0.mp4',
+  varietyVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/b4333fc35001834825863437380/f0.mp4',
+  foodVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/bdaa72475001834825863854471/f0.mp4',
+  vlogVideo: 'https://1518428392.vod-qcloud.com/ca28702dvodcq1518428392/010964265001834825864417915/f0.mp4',
 
   // Fallback aliases
   theChaseStill: '/covers/publiccovers01_the_chase.jpg',

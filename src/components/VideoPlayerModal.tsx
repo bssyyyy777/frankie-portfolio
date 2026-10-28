@@ -178,7 +178,7 @@ export const VideoPlayerModal: React.FC<VideoPlayerModalProps> = ({
               <div className="flex items-center gap-2 text-[#e4bdbc]/80">
                 <PlayCircle className="w-4 h-4 text-[#cf2335]" />
                 <span className="text-[#e8e2d8]">
-                  {lang === 'en' ? 'Local Asset:' : '本地存储路径：'}{' '}
+                  {lang === 'en' ? 'Tencent Cloud VOD:' : '腾讯云点播地址：'}{' '}
                   <span className="text-[#ffb3b1]">{videoSrc}</span>
                 </span>
               </div>
